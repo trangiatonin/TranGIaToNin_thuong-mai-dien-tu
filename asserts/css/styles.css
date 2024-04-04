@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* reset css */
+}
+
+body {
+    margin: 0 40px;
+}
+
+#wrapper {}
+
+#header {}
+
+#navigation-header {
+    padding-top: 152px;
+    padding-bottom: 64px;
+}
+
+
+
+#navigation-header>a {
+    color: #757575;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+#navigation-header a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 8px 16px;
+    font-family: sans-serif;
+}
+
+#nav {
+    padding: 12px 24px;
+    display: none;
+}
+
+#nav a,
+#nav-footer {
+    display: none;
+    color: #000;
+    line-height: 23px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 8px 16px;
+    font-family: sans-serif;
+}
+
+#navigation a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#header-content {
+    padding: 0.24px 16px;
+    font-size: 24px;
+    margin-left: 250px;
+
+}
+
+#header-content #left {
+    line-height: 36px;
+    margin: 24px 0;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#right-btn {
+    float: right;
+    margin: 24px 0;
+}
+
+.right {
+    margin-right: 16px;
+}
+
+#banner {
+    margin-left: 250px;
+    padding: 0.01em 16px;
+    margin-top: -548px;
+    position: relative;
+}
+
+#banner #banner-header img {
+    width: 100%;
+}
+
+#content {
+    margin-left: 250px;
+}
+
+.product {
+    display: inline-block;
+}
+
+#content .product {
+    width: 24.655555555%;
+}
+
+#content .product .container {
+    padding: 0.01em 16px;
+
+}
+
+.container img {
+    width: 100%;
+    height: 256.88px;
+}
+
+.container p {
+    line-height: 22px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+
+.display-ctn {
+    position: relative;
+}
+
+.display-ctn:hover #buy-btn {
+    visibility: visible;
+    /* Button becomes visible on hover */
+    opacity: 1;
+    /* Button becomes fully opaque on hover */
+}
+
+#buy-btn button {
+    background-color: #000;
+    color: #fff;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+#buy-btn :hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#buy-btn {
+
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    /* Hide button initially */
+    opacity: 0;
+    /* Set opacity to 0 for transparency */
+
+}
+
+button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 4.5px;
+}
+
+#buy-btn .buy {
+    font-size: 15px;
+    display: inline-block;
+}
+
+#footer {
+    border-top: red solid 4px;
+    margin-top: 100px;
+}
+
+#footer p {
+    font-size: 24px;
+}
